@@ -1,0 +1,23 @@
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  color: $button-color;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: pxToRem(15px) pxToRem(30px);
+  font-size: pxToRem(14px);
+  line-height: 1.5;
+
+  &--outline {
+    border-color: $border-color-outline;
+  }
+
+  &--fill {
+    background-color: $purple;
+    font-weight: 600;
+  }
+}

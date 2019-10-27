@@ -1,0 +1,3 @@
+@function pxToRem($target) {
+  @return ($target / $main-font-size) * 1em;
+}
