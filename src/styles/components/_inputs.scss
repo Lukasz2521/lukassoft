@@ -1,0 +1,17 @@
+.form-control {
+  font-size: pxToRem(20px);
+  background-color: $purple;
+  display: block;
+  width: 100%;
+  padding: pxToRem(18px);
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  background-clip: padding-box;
+  border: 1px solid $purple-p1;
+  box-shadow: 1px 0px 1px #ce8f6c;
+
+  &:focus {
+    outline: 0;
+  }
+}
