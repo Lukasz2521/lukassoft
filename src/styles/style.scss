@@ -5,3 +5,13 @@
 @import "./base/typography";
 @import "./components/buttons";
 @import "./components/inputs";
+
+@import "./layout/header";
+@import "./layout/footer";
+
+@import "./pages/base";
+@import "./pages/welcome";
+@import "./pages/about";
+@import "./pages/skills";
+@import "./pages/projects";
+@import "./pages/contact";

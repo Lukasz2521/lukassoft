@@ -12,7 +12,10 @@ module.exports = {
           "style-loader",
           MiniCssExtractPlugin.loader,
           {
-            loader: "css-loader"
+            loader: "css-loader",
+            options: {
+              url: false
+            }
           },
           "postcss-loader",
           "sass-loader"
@@ -23,8 +26,8 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      filename: "styleguide.html",
-      template: "styleguide.html"
+      filename: "index.html",
+      template: "index.html"
     }),
     new MiniCssExtractPlugin({
       filename: "style.bundle.css"
